@@ -1,0 +1,31 @@
+body{
+    background:#eee;
+    height:100%;
+}
+.center{
+    margin-left:222px;
+    margin-right:142px;
+    border:1px solid #999;
+    padding:20px;
+    height:100%
+    /*clear:both;*/
+}
+.left{
+    float:left;
+    width:158px;
+    padding:20px;
+    border:1px solid #999;
+    height:100%;
+}
+.left p{float:right;}
+.right{
+    float:right;
+    width:78px;
+    padding:20px;
+    border:1px solid #999;
+}
+
+img{
+    border:1px solid #999;
+    /*margin:20px;*/
+}
