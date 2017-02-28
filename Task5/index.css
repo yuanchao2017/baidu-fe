@@ -1,0 +1,159 @@
+*{
+    margin:0;
+    padding:0;
+}
+ul li{
+    list-style:none;
+}
+body{
+    background:#ccc;
+    height:100%;
+}
+/*导航栏部分*/
+#header {
+    width:100%;
+    margin: 0px auto;
+    padding:0px;
+    height:60px;
+    background:#000;
+}
+#header h1{
+    width:30%;
+    color:white;
+    float:left;
+    line-height:60px;
+
+}
+
+#nav{
+    float:right;
+}
+#nav li{
+    float:left;
+}
+#nav li a{
+    /*去掉下划线*/
+    text-decoration: none;
+    text-align:center;
+    color:#fff;
+    height:60px;
+    line-height:60px;
+    margin: 5px 10px;
+    font-size:12px;
+}
+
+/*文章内容*/
+.article,#register,#picture{
+    margin:20px;
+    background:#fff;
+    padding:20px;
+}
+.firstTitle{
+    font-size:30px;
+    margin-top:10px;
+    padding-top:20px;
+}
+.secondTitle{
+    font-size:20px;
+    color: #333;
+    margin-top:10px ;
+    margin-left:20px;
+}
+.autherInfo{
+    font-size:10px;
+    color:#ddd;
+    margin-top:10px;
+    margin-left:20px;
+}
+.content{
+    /*使得容器内首行缩进一定单位*/
+    text-indent:2em;
+    font-size:15px;
+    line-height:30px;
+    margin-left:20px;
+    margin-top:10px;
+}
+.photos{
+    border:1px solid #ccc;
+    text-align:center;
+    margin:5px;
+    display:inline-block;
+}
+
+.photos img{
+    padding:10px;
+    /*width:80px;*/
+    display:inline;
+}
+.rank {
+    margin-left:20px;
+    margin-top:10px;
+    line-height:30px;
+}
+.rank ol{
+    margin-left:50px;
+}
+/*表格样式*/
+.rank table{
+    width:100%;
+    border-collapse: collapse;
+    border:1px solid #ccc;
+    font-weight:bold;
+}
+.rank table td{
+    width:30%;
+}
+/*#register {*/
+    /*width:100%;*/
+/*}*/
+#register{
+    float:right;
+    width:380px;
+}
+.useInf table{
+    width:100%;
+    border:none;
+    font-size:15px;
+}
+.userLog{
+    font-size:20px;
+    font-weight:bold;
+    margin-top:10px;
+    padding-top:20px;
+}
+.useInf table td{
+    width:50%;
+    padding:5px;
+}
+.useInf table tr td:first-child{
+    text-align:right;
+}
+#description{
+    vertical-align: top;
+}
+.comment{
+    with:100%;
+}
+#Sbm{
+    width:100%;
+    height:40px;
+    background:#3355D0;
+    color:#fff;
+    font-size:15px;
+    line-height:40px;
+    border-radius: 10px;
+}
+
+.version{
+    clear:both;
+    width:100%;
+    text-align:center;
+    background:#000;
+    color:#fff;
+    height:40px;
+    line-height:40px;
+}
+#main{
+    overflow:auto;
+    zoom:1;
+}
