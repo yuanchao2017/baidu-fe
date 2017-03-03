@@ -42,12 +42,14 @@ header .meta{
 }
 #technology{
     overflow:auto;
+    overflow-y:hidden;
 }
 #picture{
     background:url("img/1.jpg") no-repeat;
     width:641px;
     height:301px;
     float:left;
+    margin-top:20px;
 }
 #picLeft{
     width:191px;
@@ -74,7 +76,7 @@ nav h1{
     text-transform:capitalize;
     font-size:24px;
     color:#000000;
-    font-family:"Microsoft YaHei",Î¢ÈíÑÅºÚ;
+    font-family:"Microsoft YaHei";
     text-decoration:underline;
     line-height:40px;
     margin-bottom:0px;
@@ -101,14 +103,21 @@ nav h1{
 }
 #smallCss{
     font-size:12px;
-    color:#cc8091;
+    color:#ccc;
 }
 .medium{
     float:left;
 }
+.medCss{
+    position:relative;
+    line-height:12px;
+}
 .css{
-    float:left;
-    bottom:0px;
+    /*float:left;*/
+    /*bottom:0;*/
+    position:absolute;
+    left:80px;
+    /*top:20px;*/
 }
 article{
     overflow:auto;
@@ -238,16 +247,20 @@ section .right .backImg{
     height:44px;
     float:left;
     margin-right:10px;
+    margin-top:10px;
 }
 #bottomTitle .first{
     font-size:26px;
     color:#fff;
     /*line-height:44px;*/
 }
+.Title{
+    margin-top:10px;
+}
 #bottomTitle .second{
     font-size:12px;
     font-style:italic;
-    letter-spacing: 140%;
+    letter-spacing: 0.1em;
     vertical-align:bottom;
     color:#72b16a;
 }
