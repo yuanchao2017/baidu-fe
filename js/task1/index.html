@@ -14,17 +14,23 @@
 <script type="text/javascript">
 
 
+
+    (function() {
         /*
          在注释下方写下代码
          给按钮button绑定一个点击事件
          在事件处理函数中
          获取aqi-input输入的值，并显示在aqi-display中
          */
-        document.getElementById("button").onclick = function() {
-            var temp = document.getElementById("aqi-input").value;
-            document.getElementById("aqi-display").innerHTML = temp;
-        };
+        var button = document.getElementById("button");
+        var display= document.getElementById("aqi-display");
+        button.onclick = function(){
 
+            var content = document.getElementById("aqi-input").value;
+            display.firstChild.nodeValue= content;
+//            console.log(display.firstChild.nodeValue);
+        };
+    })();
 
 </script>
 </body>
