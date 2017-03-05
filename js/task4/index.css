@@ -1,0 +1,8 @@
+ul li{
+    float:left;
+    height:30px;
+    background:#ff0000;
+    color:#fff;
+    margin:6px;
+    list-style:none;
+}
