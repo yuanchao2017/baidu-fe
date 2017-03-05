@@ -5,4 +5,6 @@ ul li{
     color:#fff;
     margin:6px;
     list-style:none;
+    padding: 0 10px;
+    line-height:30px;
 }
