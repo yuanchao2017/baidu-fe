@@ -26,7 +26,7 @@ function Queue(){
     var list = document.getElementsByClassName("queue")[0];
    list.onclick = function(evt){
         evt = evt|| window.event;
-        var target = evt.Target || evt.srcElement;
+        var target = evt.target || evt.srcElement;
         var tagName = target.tagName;
         if(tagName=="LI"){
             list.removeChild(target);
