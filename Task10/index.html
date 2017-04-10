@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flexbox</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+
+        body{
+            display:-webkit-flex;
+            display:flex;
+            /*定义在交叉轴上如何对齐*/
+            align-items:center;
+            /*定义在主轴上的对齐方式*/
+            justify-content: space-between;
+
+
+
+
+        }
+        .box{
+            width:150px;
+            padding:20px;
+            border:1px solid #f00;
+        }
+        #box1{
+            height:120px;
+        }
+        #box2{
+            height:100px;
+        }
+        #box3{
+            height:40px;
+        }
+        #box4{
+            height:200px;
+            border:1px solid #00f;
+        }
+        @media  screen and (max-width:640px) {
+            body{
+                flex-wrap:wrap;
+                /*项目排列设置*/
+                align-items:flex-start;
+                justify-content:space-around;
+
+            }
+            #box4{
+                -webkit-order:-1;
+                order:-1;
+            }
+
+        }
+    </style>
+</head>
+<body>
+<div id="box1" class="box"></div>
+<div id="box2" class="box"></div>
+<div id="box3" class="box"></div>
+<div id="box4" class="box"></div>
+
+</body>
+</html>
